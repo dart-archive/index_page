@@ -4,7 +4,7 @@ description: >
   Transformer which outputs a simple index.html file in all folders under web
   when one is not already present.
 author: Jake MacDonald <jakemac53@gmail.com>
-homepage: https://github.com/google/index_page
+homepage: https://github.com/dart-lang/index_page
 dependencies:
   barback: '>=0.14.2 <0.16.0'
   html: ^0.12.0

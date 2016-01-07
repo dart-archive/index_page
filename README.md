@@ -16,4 +16,4 @@ transformers:
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: https://github.com/google/index_page/issues
+[tracker]: https://github.com/dart-lang/index_page/issues
