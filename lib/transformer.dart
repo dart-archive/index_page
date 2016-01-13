@@ -32,9 +32,7 @@ class IndexPageBuilder extends AggregateTransformer
   /// index.html file.
   declareOutputs(DeclaringAggregateTransform transform) async {
     final ids = await transform.primaryIds.toList();
-    print(ids);
     final dirFiles = _getDirsAndFiles(ids);
-    print(dirFiles);
     for (var dir in dirFiles.keys) {
       if (dirFiles[dir].contains('index.html')) continue;
       transform.declareOutput(
